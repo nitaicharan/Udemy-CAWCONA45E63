@@ -2,21 +2,9 @@
 
 <!-- PROJECT SHIELDS -->
 
-![Udemy][udemy-shield]
-![Angular][angular-shield]
-![TypeScript][typescript-shield]
-![HTML5][html5-shield]
-![CSS3][css3-shield]
-![Sass][sass-shield]
+![NodeJS][nodejs-shield]
 
-Project available to access at: https://nitaicharan.github.io/Udemy-CAWCONA45E63/
-
-<!--[![](Udemy-CAWCONA45E63.png)](https://nitaicharan.github.io/Udemy-CAWCONA45E63/)-->
-<a href="https://nitaicharan.github.io/Udemy-CAWCONA45E63">
-  <p align="center">
-    <img src="Udemy-CAWCONA45E63.png">
-  </p>
-</a>
+Project available to access at: https://nitaicharan.github.io/Udemy-CAWCONA45E62/
 
 ## About course
 
@@ -42,19 +30,6 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 [![Udemy][udemy-shield]][udemy-url]
 [![Instagram][instagram-shield]][instagram-url]
 [![Twitter][twitter-shield]][twitter-url]
-
-## Development GitHub Pages
-
-```
-ng build --prod --base-href=/Udemy-CAWCONA45E63/
-
-git add -A
-git commit -m <titule> <message>
-git push origin <branch>
-git subtree push --prefix dist origin gh-pages
-git push origin `git subtree split --prefix dist/ master`:gh-pages --force
-```
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -98,3 +73,4 @@ git push origin `git subtree split --prefix dist/ master`:gh-pages --force
 [flutter-shield]: https://img.shields.io/badge/-Flutter-white.svg?logo=flutter&logoColor=white&colorB=02569B
 [android-shield]: https://img.shields.io/badge/-Android-white.svg?logo=android&logoColor=white&colorB=3DDC84
 [apple-shield]: https://img.shields.io/badge/-Apple-white.svg?logo=apple&logoColor=white&colorB=999999
+[nodejs-shield]: https://img.shields.io/badge/-Node.js-white.svg?logo=node.js&logoColor=white&colorB=339933
