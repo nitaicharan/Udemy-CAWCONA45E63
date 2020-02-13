@@ -1,7 +1,8 @@
 import * as  jsonServer from 'json-server';
-import { Express } from 'express';
+import { Express } from "express";
 import * as fs from 'fs';
 import * as https from 'https';
+import { handleAuthentication } from './auth';
 
 const PORT: number = 3001;
 
@@ -9,14 +10,12 @@ const server: Express = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
-// Set default middlewares (logger, static, cors and no-cache)
-server.use(middlewares);
 
-// To handle POST, PUT and PATCH you need to use a body-parser
-// You can use the one used by JSON Server
+server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
-// Use default router
+server.post('/login', handleAuthentication);
+
 server.use(router);
 
 const options = {
