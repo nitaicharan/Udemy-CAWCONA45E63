@@ -3,6 +3,8 @@
 <!-- PROJECT SHIELDS -->
 
 ![NodeJS][nodejs-shield]
+![Nodemon][nodemon-shield]
+![TypeScript][typescript-shield]
 
 Project available to access at: https://nitaicharan.github.io/Udemy-CAWCONA45E62/
 
@@ -74,3 +76,4 @@ This certificate above verifies that [Nitai Charan][udemy-url] successfully comp
 [android-shield]: https://img.shields.io/badge/-Android-white.svg?logo=android&logoColor=white&colorB=3DDC84
 [apple-shield]: https://img.shields.io/badge/-Apple-white.svg?logo=apple&logoColor=white&colorB=999999
 [nodejs-shield]: https://img.shields.io/badge/-Node.js-white.svg?logo=node.js&logoColor=white&colorB=339933
+[nodemon-shield]: https://img.shields.io/badge/-Nodemon-white.svg?logo=nodemon&logoColor=white&colorB=76D04B
