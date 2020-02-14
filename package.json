@@ -5,9 +5,12 @@
   "main": "dist/server.js",
   "scripts": {
     "tsc:watch": "tsc --build --watch",
-    "nodemon:watch": "nodemon ./dist/server.js",
+    "tsc:build": "tsc --build",
+    "nodemon:watch": "nodemon dist/server.js",
     "dev": "npm-run-all --parallel tsc:watch nodemon:watch",
-    "start": "node ./dist/server"
+    "build": "npm run tsc:build",
+    "postinstall": "npm run build",
+    "start": "node dist/server"
   },
   "repository": {
     "type": "git",
@@ -29,6 +32,7 @@
     "@types/node": "^13.7.1",
     "express": "^4.17.1",
     "json-server": "^0.16.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "typescript": "^3.7.5"
   }
 }
