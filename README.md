@@ -18,7 +18,7 @@ This project was part of the Udemy course "Construindo Aplicações Web Com o No
 
 ### Certificate
 
-This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)][course-url] on ??/??/???? as taught by [Tarso Bessa][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
+This certificate above verifies that [Nitai Charan][udemy-url] successfully completed the course [Construindo Aplicações Web Com o Novo Angular (4, 5 e 6)][course-url] on 02/18/2020 as taught by [Tarso Bessa][instructor-url] on Udemy. The certificate indicates the entire course was completed as validated by the student.
 
 <p align="center">
   <img src="certificate.jpg">
